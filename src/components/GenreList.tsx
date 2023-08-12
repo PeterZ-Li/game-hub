@@ -12,7 +12,7 @@ const GenereList = ({ onSelectedGenre, selectedGenre }: Props) => {
 
   if (error) return null;
 
-  if (isLoading) return <Spinner />
+  if (isLoading) return <Spinner />;
 
   return (
     <>
